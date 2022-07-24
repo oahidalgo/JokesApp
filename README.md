@@ -5,12 +5,18 @@ This application is a basic crud and search project that allows us to create, ed
 Installation:
 Download the latest Visual Studio Community Edition, and install it through recomended settings
 Download the project
+Run the following command on Package Manager Console: Update-Database
 Run the project through Visual Studio
 
 Documentation:
-You can login as 
-  EMAIL: test@gmail.com
-  PASSWORD: Test1234#
+
+Create a login:
+ -> Go to register tab
+ -> Fill the email and passwords fields
+ -> Confirm the emial by click the "Click here to confirm your account" link
+ -> You will see a green message that says "Thank you for confirming your email"
+Notes*: its importart to "confirm the email", that's the only way that your credentials are going to work with the app
+
 You can only create, delete or update if you are loged in.
   * Create Test Case
     -> Go through the 'Jokes' tab
